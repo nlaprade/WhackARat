@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Whack-A-Rat</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <p>WHACK-A-RAT</p>
+    <h1>Score:</h1>
+    <h2 id="score">0</h2>
+
+    <button onclick="moveCreature()" id="start">Start</button>
+    <button onclick="resetAll()">Reset</button>
+    <button onclick="toggleMute()" id="mute">Mute</button>
+
+    <div class="grid">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+    </div>
+
+    <h1>Misses:</h1>
+    <h2 id="miss">0</h2>
+    <script src="app.js" defer></script>
+    <p class="signature">&copy; Nicholas Laprade ~ 301266745 ~ 2023-03-20</p>
+</body>
+</html>
